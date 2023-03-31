@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif !important;
+    background-image: url("https://source.unsplash.com/random/?landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading {
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#alarm {
+    border: 4px solid rgb(240, 236, 40);
+    width: 500px;
+    height: 450px;
+    background-color: rgb(247, 89, 84);
+    color: white;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 20%;
+}
+
+#alarm h2 {
+    text-decoration: underline;
+    color: white;
+}
+
+#ctime {
+    font-size: 1.5rem;
+}
+
+#set-alarm-button {
+    background-color: green;
+    color: antiquewhite;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.line {
+    border: 1px solid white;
+    background-color: white;
+}
+
+#alarm-values {
+    margin-top: 20px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+#alarm-values select {
+    margin: 0 10px 0 10px;
+}
+
+#list {
+    list-style: none;
+}
+
+#list li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#list li input {
+    background-color: red;
+}
