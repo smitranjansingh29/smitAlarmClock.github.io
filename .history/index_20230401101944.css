@@ -15,7 +15,7 @@ body {
     font-size: 3.5em;
     color: rgb(43, 255, 0);
     font-weight: bold;
-    text-shadow: -3px 3px 3px #FF0000, 2px 3px 20px #1000ff;
+    text-shadow: brown;
 }
 
 #alarm {
