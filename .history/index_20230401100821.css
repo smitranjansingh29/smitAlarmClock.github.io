@@ -37,13 +37,12 @@ body {
 }
 
 #alarm h3 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #ctime {
-    font-size: 1.8rem;
-    color: blueviolet;
+    font-size: 1.5rem;
 }
 
 #set-alarm-button {
@@ -66,8 +65,7 @@ body {
 
 #alarm-values select {
     margin: 0 10px 0 10px;
-    font-size: 30px;
-    border-radius: 16%;
+    font-size: 22px;
 }
 
 #list {
